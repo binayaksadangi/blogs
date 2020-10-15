@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+
+<style>
+
+div.photo 
+{
+  margin:40px 100px 40px 100px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  float: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white ;
+}
+
+div.photo:hover 
+{
+  border: 1px solid #777;
+}
+
+div.about 
+{
+  padding: 15px;
+  text-align: center;
+}
+
+div.photo img
+{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  float: right;
+}
+
+.Caveat
+{
+	font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.Pacifico
+{
+	font-family: 'Pacifico', cursive;
+    font-size: 13px;
+}
+
+</style>
+</head>
+
+
+<body style="background-color: lightgrey ;">
+
+<h2 class='Caveat' >Bloggers' Spot</h2>
+
+<center>
+	<div class="photo" >
+  	<a target="_blank" href="https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-			Mahal-Agra-India.jpg">
+    <img src="https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-				India.jpg" alt="Taj Mahal" width="600" height="400">
+    </a>
+    <div class="about Pacifico">The Taj Mahal is an ivory-white marble mausoleum on the 		south bank of the Yamuna river in the Indian city of Agra. It was commissioned 		   in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite 		    wife, Mumtaz Mahal.</div>
+	</div>
+</center>
+
+<center>
+<div class="photo">
+  <a target="_blank" href="https://images.outlookindia.com/public/uploads/articles/2020/3/7/jagannatha-temple_571_855.jpg">
+    <img src="https://images.outlookindia.com/public/uploads/articles/2020/3/7/jagannatha-temple_571_855.jpg" alt="Puri" 
+
+width="600" height="400">
+  </a>
+  <div class="about Pacifico ">The Shree Jagannath Temple of Puri is an important Hindu temple dedicated to Jagannath, a form of Vishnu, in Puri in the state of Odisha on the eastern coast of India. The temple is an important pilgrimage destination.</div>
+</div>
+</center>
+
+<center>
+<div class="photo">
+  <a target="_blank" href="https://www.abadhotels.com/wp-content/uploads/Resorts-in-Munnar.jpg">
+    <img src="https://www.abadhotels.com/wp-content/uploads/Resorts-in-Munnar.jpg" alt="Munnar" width="600" height="400">
+  </a>
+  <div class="about Pacifico">Munnar is a town in the Western Ghats mountain range in India’s Kerala state. This hill station is 
+
+surrounded by rolling hills dotted with tea plantations established in the late 19th century.</div>
+</div>
+</center>
+
+
+</body>
+</html>
